@@ -1,0 +1,59 @@
+/* Estilo base del enlace */
+.mi-perfil {
+    text-decoration: none; /* Quita el subrayado por defecto */
+    color: #5b4caf; /* Color de texto verde */
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    padding: 5px 10px; /* Espaciado alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f0f0f0; /* Fondo gris claro */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Animación de transición */
+}
+
+/* Estilo cuando el usuario pasa el cursor sobre el enlace */
+.mi-perfil:hover {
+    color: white; /* Cambia el color del texto */
+    background-color: #564caf; /* Cambia el fondo cuando el cursor pasa por encima */
+}
+
+/* Estilo cuando el enlace es visitado */
+.mi-perfil:visited {
+    color: #9E9E9E; /* Cambia el color del enlace visitado */
+}
+
+/* Estilo cuando el enlace es activado (cuando se hace clic) */
+.mi-perfil:active {
+    color: #FFFFFF; /* Cambia el color del texto al hacer clic */
+    background-color: #4b388e; /* Cambia el fondo al hacer clic */
+
+}
+.contenedor {
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center;     /* Centra la imagen verticalmente */
+    height: 100vh;           /* Hace que el contenedor tenga toda la altura de la ventana */
+}
+
+.contenedor img {
+    max-width: 100%;   /* Hace que la imagen no se desborde */
+    max-height: 100%;  /* Limita la altura de la imagen para que no se desborde */
+}
+ul li{
+    background: rgb(0, 255, 64);
+    color: darkblue;
+    margin: 5px;
+    ;
+}
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
